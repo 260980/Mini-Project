@@ -1,6 +1,5 @@
 # SDLC Activity Based Learning
-![math](https://user-images.githubusercontent.com/80764179/114262698-fd93d900-99fe-11eb-8d5f-bc2722807223.jpg)
-
+![math](https://user-images.githubusercontent.com/80764179/114262836-d25db980-99ff-11eb-8e60-7894a6e0a0b4.jpg)
 
 Visit [Pages for Report -optional](using github.io option)
 
@@ -35,4 +34,3 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-
