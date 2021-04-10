@@ -1,4 +1,5 @@
 # SDLC Activity Based Learning
+https://www.google.com/url?sa=i&url=https%3A%2F%2Falansec.wordpress.com%2F2017%2F11%2F26%2Fon-mathematics%2F&psig=AOvVaw0UqxbNrN81EI2wLYaVi8OA&ust=1618126924328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIie6_qW8-8CFQAAAAAdAAAAABAR
 
 Visit [Pages for Report -optional](using github.io option)
 
@@ -19,8 +20,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+`260980` | Narra Revathi  | Feature A, B etc    | X No     | X No   |X No   |X No         
 
 ## Challenges Faced and How Was It Overcome
 
