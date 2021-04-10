@@ -1,5 +1,6 @@
 # SDLC Activity Based Learning
-https://www.google.com/url?sa=i&url=https%3A%2F%2Falansec.wordpress.com%2F2017%2F11%2F26%2Fon-mathematics%2F&psig=AOvVaw0UqxbNrN81EI2wLYaVi8OA&ust=1618126924328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIie6_qW8-8CFQAAAAAdAAAAABAR
+![math](https://user-images.githubusercontent.com/80764179/114262698-fd93d900-99fe-11eb-8d5f-bc2722807223.jpg)
+
 
 Visit [Pages for Report -optional](using github.io option)
 
