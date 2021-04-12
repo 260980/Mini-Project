@@ -4,7 +4,7 @@ A scientific calculator performs both arithmetic functions and scientific calcul
 
 ## Research
 [Research Paper](https://www.researchgate.net/publication/273803590_The_Effect_of_Calculator_Use_on_College_Students'_Mathematical_Performance)
-Scientific calculators are used to reduce the time for calculations.The improved mathematical improvement may not be due to calculators being easy but rather to the effect of learning experiences.
+Scientific calculators are used to reduce the time for calculations.The improved mathematical improvement may not be due to calculators being easy but rather to the effect of learning experiences.Thus by calculating with pen and paper,the best function is to use a calculator which gives the better result in a less time.
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
