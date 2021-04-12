@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- A scientific calculator performs both arithmetic functions and scientific calculations. Arithemetic functions like addition,subtraction,multiplication and division.Trigonometric functions like sine,cosine and tangent. Scientific operations like power and square root.This project can be implemented using C language. 
+A scientific calculator performs both arithmetic functions and scientific calculations. Arithemetic functions like addition subtraction multiplication and division.Trigonometric functions like sine cosine and tangent. Scientific operations like power and square root.This project can be implemented using C language. 
 
 ## Research
 [Research Paper](https://www.researchgate.net/publication/273803590_The_Effect_of_Calculator_Use_on_College_Students'_Mathematical_Performance)
