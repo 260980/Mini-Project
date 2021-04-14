@@ -47,7 +47,7 @@ void cal()
              */
             case ADD:
             add(value,&answer);
-            printf("\nThe Sum is : %.2f",answer.final_answer);
+            printf("\nThe Addition is : %.2f",answer.final_answer);
             printf("\n");
             break;
 
@@ -55,7 +55,7 @@ void cal()
 
             case SUB:
             sub(value,&answer);
-            printf("\nThe subtraction is: %.2f",answer.final_answer);
+            printf("\nThe Subtraction is: %.2f",answer.final_answer);
             printf("\n");
             break;
 
