@@ -3,7 +3,7 @@ src/sub.c\
 src/mul.c\
 src/div.c\
 src/power.c\
-src/sqrare.c\
+src/square.c\
 
 inc_h=inc
 inc_uh= unity
