@@ -32,32 +32,32 @@ void calc()
     {
         case 1:
         calc_add(number2,number2,&res);
-        printf("Addition is .2f",res.final_ans);
+        printf("Addition is %.2f",res.final_ans);
         break;
 
         case 2:
         calc_sub(number1,number2,&res);
-        printf("Subtraction is .2f",res.final_ans);
+        printf("Subtraction is %.2f",res.final_ans);
         break;
 
         case 3:
         calc_mul(number1,number2,&res);
-        printf("Multiplication is .2f",res.final_ans);
+        printf("Multiplication is %.2f",res.final_ans);
         break;
 
         case 4:
-        cal_div(number1,number2,&res);
-        printf("Division is .2f",res.final_ans);
+        calc_div(number1,number2,&res);
+        printf("Division is %.2f",res.final_ans);
         break;
 
         case 5:
-        cal_power(number1,number2,&res);
-        printf("Power is .2f",res.final_ans);
+        calc_power(number1,number2,&res);
+        printf("Power is %.2f",res.final_ans);
         break;
 
         case 6:
-        cal_square(number1,&res);
-        printf("Square root is .2f",res.final_ans);
+        calc_square(number1,&res);
+        printf("Square root is %.2f",res.final_ans);
         break;
 
         default:
