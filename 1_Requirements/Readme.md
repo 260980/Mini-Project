@@ -24,7 +24,8 @@ Architecture
 ![Design](https://user-images.githubusercontent.com/80764179/114425539-cd069780-9bd6-11eb-8590-19c24360606b.PNG)
 
 ## SWOT ANALYSIS
-![swot](https://user-images.githubusercontent.com/80764179/114425796-0b03bb80-9bd7-11eb-82e2-e2ca44740173.png)
+![swot](https://user-images.githubusercontent.com/80764179/114836285-1e3da380-9df0-11eb-8c28-501749048984.png)
+
 
 
 # 4W&#39;s and 1&#39;H
