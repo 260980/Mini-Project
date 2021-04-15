@@ -3,14 +3,14 @@
 #include<math.h>
 
 /**
- * @brief power function
+ * @brief sqrt function 
  * 
  * @param n 
  * @param answer 
  * @return error 
  */
-error power(calculator n,result* answer)
+verify calc_square(calculator number1,result* res)
 {
-    answer->final_answer=pow(n.number_1,n.number_2);
+    res->final_ans=sqrt(number1.num1);
     return SUCCESS;
 }

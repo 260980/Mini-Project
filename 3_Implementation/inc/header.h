@@ -1,72 +1,40 @@
 #ifndef __header_h__
 #define __header_h__
 
-typedef struct calculator
-{
+typedef struct calculator{
     /**
-     * @brief structure for calculator operations
+     * @brief structure for defining variables
      * 
      */
-    float number_1;
-    float number_2;
-} calculator;
+    float num1;
+    float num2;
+}calculator;
 
-typedef struct result
-{
+
+typedef enum verify{
     /**
-     * @brief structure for result
+     * @brief enum for returning the result
      * 
      */
-    float final_answer;
-    
+    ERROR_DIV_ZERO=-2,
+    ERROR_NULL_PTR=-1,
+    SUCCESS=0
+}verify;
+
+typedef struct result{
+    /**
+     * @brief structure for returning the result
+     * 
+     */
+    float final_ans;
 }result;
 
-typedef struct calculator_single
-{
-    /**
-     * @brief strcture for calculating single value
-     * 
-     */
-    float number_1;
-}calculator_single;
 
-typedef enum error
-{
-    /**
-     * @brief Enum for unit testing the functions
-     * 
-     */
-    SUCCESS=1,
-    FAIL=0,
-    ERROR_DIV_ZERO=-1
-}error;
+void calc(void);
 
-enum assigning
-{
-    /**
-     * @brief Assigning values to the variables
-     * 
-     */
+verify calc_add(calculator number1,calculator number2,result* res);
+verify calc_sub(calculator number1,calculator number2,result* res);
+verify calc_mul(calculator number1,calculator number2,result* res);
+verify calc_div(calculator number1,calculator number2,result* res);
 
-    ADD=1,
-    SUB=2,
-    MUL=3,
-    DIV=4,
-    POWER=5,
-    SQUARE=6,
-    EXIT=7
-};
-
-
-
-
-
-void cal(void);
-
-error add(calculator n,result* answer);
-error sub(calculator n,result* answer);
-error mul(calculator n,result* answer);
-error div(calculator n,result* answer);
-error power(calculator n,result* answer);
-error square(calculator_single n,result* answer);
 #endif

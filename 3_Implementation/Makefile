@@ -1,48 +1,48 @@
-files= src/add.c\
-src/sub.c\
-src/mul.c\
-src/div.c\
-src/power.c\
-src/square.c\
+SRC= src/calc_add.c\
+src/calc_sub.c\
+src/calc_mul.c\
+src/calc_div.c\
+src/calc_power.c\
+src/calc_square.c\
 
-inc_h=inc
-inc_uh= unity
-files_u= unity/unity.c
-test_u= test/test.c
+INC_H=inc
+TEST_H= unity
+TEST_C= unity/unity.c
+TEST_UH= test/test.c
 
 ifdef OS
-   EXEC = exe
+   EXE = exe
 else
    ifeq ($(shell uname), Linux)
-	  EXEC = out -lm
+	  EXE = out -lm
    endif
 endif 
 
 ifdef OS
-   EXEC_T = final_test.exe
+   EXE_T = final_test.exe
 else
    ifeq ($(shell uname), Linux)
-	  EXEC_T = ./final_test.out
+	  EXE_T = ./final_test.out
    endif
 endif 
 
-create: $(files) project_main.c
-	gcc -I $(inc_h)  $(files)  project_main.c -o final.$(EXEC)
+create: $(SRC) Calculator_main.c
+	gcc -I $(INC_H)  $(SRC)  Calculator_main.c -o final.$(EXEC)
 
-run:final.$(EXEC)
-	final.$(EXEC)
+run:final.$(EXE)
+	final.$(EXE)
 
 valgrind:
-	valgrind ./final.$(EXEC)
+	valgrind ./final.$(EXE)
 
-create_test: $(files) $(test_u) 
-	gcc -I $(inc_h) -I $(inc_uh) $(files) $(files_u) $(test_u)  -o final_test.$(EXEC)
+create_test: $(SRC) $(TEST_UH) 
+	gcc -I $(INC_H) -I $(TEST_H) $(SRC) $(TEST_C) $(TEST_UH)  -o final_test.$(EXE)
 
-run_test:final_test.$(EXEC)
-		 $(EXEC_T)
+run_test:final_test.$(EXE)
+		 $(EXE_T)
 coverageCheck:
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 -I $(inc_h) -I $(inc_uh) $(files) $(files_u) $(test_u) -o TEST_OUTPUT.out
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 -I $(INC_H) -I $(TEST_H) $(SRC) $(TEST_C) $(TEST_UH) -o TEST_OUTPUT.out
 	./TEST_OUTPUT.out
 
 clean:
-	del *.$(EXEC)
+	del *.$(EXE)
