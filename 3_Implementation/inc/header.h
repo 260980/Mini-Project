@@ -32,9 +32,9 @@ typedef struct result{
 
 void calc(void);
 
-verify calc_add(calculator number1,calculator number2,result* res);
-verify calc_sub(calculator number1,calculator number2,result* res);
-verify calc_mul(calculator number1,calculator number2,result* res);
-verify calc_div(calculator number1,calculator number2,result* res);
+verify calc_add(calculator number1,result* res);
+verify calc_sub(calculator number1,result* res);
+verify calc_mul(calculator number1,result* res);
+verify calc_div(calculator number1,result* res);
 
 #endif
