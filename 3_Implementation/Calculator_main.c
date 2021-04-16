@@ -21,8 +21,8 @@ void calc()
     else if(choice==6)
     {
         printf("Enter the value\n");
-        scanf("%d",&ok);
-        dt.n1=ok;
+        scanf("%f",&ok);
+        n1.n1=ok;
     }
     else{
         printf("Enter the values\n");
