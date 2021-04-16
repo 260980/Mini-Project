@@ -27,7 +27,7 @@ else
 endif 
 
 create: $(SRC) Calculator_main.c
-	gcc -I $(INC_H)  $(SRC)  Calculator_main.c -o final.$(EXEC)
+	gcc -I $(INC_H)  $(SRC)  Calculator_main.c -o final.$(EXE)
 
 run:final.$(EXE)
 	final.$(EXE)
