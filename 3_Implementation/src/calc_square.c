@@ -9,8 +9,8 @@
  * @param answer 
  * @return error 
  */
-verify calc_square(calculator number1,result* res)
+verify calc_square(dt n1,result* res)
 {
-    res->final_ans=sqrt(number1.num1);
+    res->final_ans=sqrt(n1.n1);
     return SUCCESS;
 }
