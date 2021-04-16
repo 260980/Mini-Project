@@ -67,3 +67,8 @@ void calc()
     }
 
 }
+
+void main()
+{
+    calc();
+}
