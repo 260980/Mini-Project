@@ -10,6 +10,10 @@ typedef struct calculator{
     float num2;
 }calculator;
 
+typedef struct dt
+{
+    float n1;
+}dt;
 
 typedef enum verify{
     /**
@@ -36,5 +40,6 @@ verify calc_add(calculator number1,result* res);
 verify calc_sub(calculator number1,result* res);
 verify calc_mul(calculator number1,result* res);
 verify calc_div(calculator number1,result* res);
-
+verify calc_power(calculator number1,result* res);
+verify calc_square(dt n1,result* ans);
 #endif
