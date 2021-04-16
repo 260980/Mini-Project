@@ -106,7 +106,7 @@ void test_calc_mul(void)
     number1.num1=999;
     number1.num2=-888;
     TEST_ASSERT_EQUAL(SUCCESS,calc_mul(number1,&res));
-	TEST_ASSERT_EQUAL(887112,res.final_ans);
+	TEST_ASSERT_EQUAL(-887112,res.final_ans);
 
 }
 
