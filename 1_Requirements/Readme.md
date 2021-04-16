@@ -6,7 +6,6 @@ A scientific calculator performs both arithmetic functions and scientific calcul
 [Research Paper](https://www.researchgate.net/publication/273803590_The_Effect_of_Calculator_Use_on_College_Students'_Mathematical_Performance)
 Scientific calculators are used to reduce the time for calculations.The improved mathematical improvement may not be due to calculators being easy but rather to the effect of learning experiences.Thus by calculating with pen and paper,the best function is to use a calculator which gives the better result in a less time.
 ## Cost and Features
-![Description](Link to Pic)
 - It is a low cost project. The cost  can vary according to the different opeartions used in the project.
 - Research for a project helps us to deliver the accurate result.
 - Estimating the cost of the project.
@@ -62,7 +61,7 @@ Architecture
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
+
 | ID | Description | Status (Implemented/Future) |
 | ------| --------| -----------                |
 | HR01 | User can able to perform Arithmetic operations | Implemented |
@@ -70,7 +69,7 @@ Architecture
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
+
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------| --------| -------- | ------------               |
 | LR01 | User can able to perform Addition operation | HR01 | Implemented |
