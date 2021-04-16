@@ -2,10 +2,9 @@
 #include "header.h"
 
 /**
- * @brief returns subtraction of two numbers
+ * @brief returns subtraction of two  numbers
  * 
  * @param number1 
- * @param number2 
  * @param res 
  * @return verify 
  */

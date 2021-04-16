@@ -2,11 +2,10 @@
 #include "header.h"
 
 /**
- * @brief returns adding of two numbers
+ * @brief returns addition of two numbers
  * 
  * @param number1 
- * @param number2 
- * @param answer 
+ * @param res 
  * @return verify 
  */
 

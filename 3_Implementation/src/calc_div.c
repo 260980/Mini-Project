@@ -5,11 +5,9 @@
  * @brief returns division of two numbers
  * 
  * @param number1 
- * @param number2 
  * @param res 
  * @return verify 
  */
-
 verify calc_div(calculator number1,result* res)
 {
     if(number1.num1==0 || number1.num2==0)

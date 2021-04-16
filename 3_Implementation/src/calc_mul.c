@@ -5,7 +5,6 @@
  * @brief returns multiplication of two numbers
  * 
  * @param number1 
- * @param number2 
  * @param res 
  * @return verify 
  */

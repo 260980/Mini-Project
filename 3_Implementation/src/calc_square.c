@@ -3,12 +3,13 @@
 #include<math.h>
 
 /**
- * @brief sqrt function 
+ * @brief returns square root of a number
  * 
- * @param n 
- * @param answer 
- * @return error 
+ * @param n1 
+ * @param res 
+ * @return verify 
  */
+
 verify calc_square(dt n1,result* res)
 {
     res->final_ans=sqrt(n1.n1);

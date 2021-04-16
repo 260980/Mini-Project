@@ -9,7 +9,7 @@ static dt n1;
 void calc()
 {
     int choice,num1,num2;
-    float ok;
+    float number;
     printf("Enter your choice\n");
     printf("1.ADDITION\n  2.SUBTRACTION\n   3.MULTIPLICATION\n   4.DIVISION\n    5.POWER\n     6.SQUARE ROOT\n");
     scanf("%d",&choice);
@@ -21,8 +21,8 @@ void calc()
     else if(choice==6)
     {
         printf("Enter the value\n");
-        scanf("%f",&ok);
-        n1.n1=ok;
+        scanf("%f",&number);
+        n1.n1=number;
     }
     else{
         printf("Enter the values\n");

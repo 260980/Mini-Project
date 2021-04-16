@@ -1,7 +1,8 @@
 #ifndef __header_h__
 #define __header_h__
 
-typedef struct calculator{
+typedef struct calculator
+{
     /**
      * @brief structure for defining variables
      * 
@@ -12,6 +13,10 @@ typedef struct calculator{
 
 typedef struct dt
 {
+    /**
+     * @brief structure for defining single variable
+     * 
+     */
     float n1;
 }dt;
 
