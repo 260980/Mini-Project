@@ -54,7 +54,9 @@ Architecture
 # Detail requirements
 ## High Level Requirements:
 --- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+--  ID | Description | Status (Implemented/Future)
+HR01 | User can able to perform Arithmetic operations | Implemented
+HR02 | User can able to perform Srithmetic operations | Implemented
 
 
 ##  Low level Requirements:
