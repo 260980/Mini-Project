@@ -5,7 +5,7 @@
 #include<stdlib.h>
 
 calculator number1;
-calculator number2;
+dt n1;
 
 static result res={0};
 
@@ -20,8 +20,8 @@ void test_calc_add(void)
      * 
      */
     number1.num1=30;
-    number2.num2=20;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_add(number1,number2,&res));
+    number1.num2=20;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_add(number1,&res));
 	TEST_ASSERT_EQUAL(50,res.final_ans);
 
    
@@ -30,8 +30,8 @@ void test_calc_add(void)
     * 
     */
     number1.num1=50;
-    number2.num2= -5;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_add(number1,number2,&res));
+    number1.num2= -5;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_add(number1,&res));
 	TEST_ASSERT_EQUAL(45,res.final_ans);
 
 }
@@ -44,8 +44,8 @@ void test_calc_sub(void)
      * 
      */
     number1.num1=30;
-    number2.num2=20;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_sub(number1,number2,&res));
+    number1.num2=20;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_sub(number1,&res));
 	TEST_ASSERT_EQUAL(45,res.final_ans);
 
     /**
@@ -53,8 +53,8 @@ void test_calc_sub(void)
      * 
      */
     number1.num1=10;
-    number2.num2=-5;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_sub(number1,number2,&res));
+    number1.num2=-5;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_sub(number1,&res));
 	TEST_ASSERT_EQUAL(15,res.final_ans);
 
 }
@@ -66,8 +66,8 @@ void test_calc_mul(void)
      * 
      */
     number1.num1=20;
-    number2.num2=30;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_mul(number1,number2,&res));
+    number1.num2=30;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_mul(number1,&res));
 	TEST_ASSERT_EQUAL(600,res.final_ans);
 
     /**
@@ -75,8 +75,8 @@ void test_calc_mul(void)
      * 
      */
     number1.num1=-20;
-    number2.num2=-15;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_mul(number1,number2,&res));
+    number1.num2=-15;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_mul(number1,&res));
 	TEST_ASSERT_EQUAL(300,res.final_ans);
 
 }
@@ -89,8 +89,8 @@ void test_calc_div(void)
      */
     
     number1.num1=159;
-    number2.num2=3;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_div(number1,number2,&res));
+    number1.num2=3;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_div(number1,&res));
 	TEST_ASSERT_EQUAL(53,res.final_ans);
     
     /**
@@ -99,8 +99,8 @@ void test_calc_div(void)
      */
     
     number1.num1=318096;
-    number2.num2=24;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_div(number1,number2,&res));
+    number1.num2=24;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_div(number1,&res));
 	TEST_ASSERT_EQUAL(13254,res.final_ans);
 
 }
@@ -113,8 +113,8 @@ void test_calc_power(void)
      */
     
     number1.num1=24;
-    number2.num2=3;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_power(number1,number2,&res));
+    number1.num2=3;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_power(number1,&res));
 	TEST_ASSERT_EQUAL(13824,res.final_ans);
 
     /**
@@ -123,8 +123,8 @@ void test_calc_power(void)
      */
     
     number1.num1=222;
-    number2.num2=3;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_power(number1,number2,&res));
+    number1.num2=3;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_power(number1,&res));
 	TEST_ASSERT_EQUAL(10941048,res.final_ans);
    
 }
@@ -136,8 +136,8 @@ void test_calc_square(void)
      * 
      */
     
-    number1.num1=576;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_square(number1,&res));
+    n1.n1=576;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_square(n1,&res));
 	TEST_ASSERT_EQUAL(24,res.final_ans);
     
     /**
@@ -145,8 +145,8 @@ void test_calc_square(void)
      * 
      */
     
-    number1.num1=3844;
-    TEST_ASSERT_EQUAL(SUCCESS,calc_square(number1,&res));
+    n1.n1=3844;
+    TEST_ASSERT_EQUAL(SUCCESS,calc_square(n1,&res));
 	TEST_ASSERT_EQUAL(62,res.final_ans);
  
 }
