@@ -10,8 +10,8 @@
  * @return verify 
  */
 
-verify calc_sub(calculator number1,calculator number2,result* res)
+verify calc_sub(calculator number1,result* res)
 {
-    res->final_ans=number1.num1-number2.num2;
+    res->final_ans=number1.num1-number1.num2;
     return SUCCESS;
 }
