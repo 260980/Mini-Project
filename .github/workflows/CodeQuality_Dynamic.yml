@@ -19,4 +19,4 @@ jobs:
     - name: generate
       run: make -C 3_Implementation/ create
     - name: valgrid
-      run: make -C 3_Implementation/valgrind
+      run: make -C 3_Implementation/ valgrind
