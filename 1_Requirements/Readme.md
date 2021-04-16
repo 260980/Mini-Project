@@ -7,7 +7,16 @@ A scientific calculator performs both arithmetic functions and scientific calcul
 Scientific calculators are used to reduce the time for calculations.The improved mathematical improvement may not be due to calculators being easy but rather to the effect of learning experiences.Thus by calculating with pen and paper,the best function is to use a calculator which gives the better result in a less time.
 ## Cost and Features
 ![Description](Link to Pic)
--- Content 
+- It is a low cost project. The cost  can vary according to the different opeartions used in the project.
+- Research for a project helps us to deliver the accurate result.
+- Estimating the cost of the project.
+- Add function is used to calculate the addition of two numbers.
+- Sub function is used to calculate the subtraction of two numbers.
+- Mul function is used to calculate the multiplication of two numbers.
+- Div function is used to calculate the division of two numbers.
+- Pow function is used to calculate the power of the given number.
+- Sqrt function is used to calculate the square root of the given number.
+- This can be implemented further by taking different calculator operations.
 ## Defining Our System
 Arithmetic Operations
    - ADD
@@ -54,11 +63,19 @@ Architecture
 # Detail requirements
 ## High Level Requirements:
 --- TBD in Tabular Format 
---  ID | Description | Status (Implemented/Future)
-HR01 | User can able to perform Arithmetic operations | Implemented
-HR02 | User can able to perform Srithmetic operations | Implemented
+| ID | Description | Status (Implemented/Future) |
+| ------| --------| -----------                |
+| HR01 | User can able to perform Arithmetic operations | Implemented |
+| HR02 | User can able to perform Scientific operations | Implemented |
 
 
 ##  Low level Requirements:
 --- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------| --------| -------- | ------------               |
+| LR01 | User can able to perform Addition operation | HR01 | Implemented |
+| LR02 | User can able to perform Subtraction operation | HR01 | Implemented |
+| LR03 | User can able to perform Multiplication operation | HR01 | Implemented |
+| LR04 | User can able to perform Division operation | HR01 |Implemented |
+| LR05 | User can able to perform Power operation | HR02 | Implemented |
+| LR06 | User can able to perform Square root operation | HR02 | Implemented |
