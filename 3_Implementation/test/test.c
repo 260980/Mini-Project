@@ -46,7 +46,7 @@ void test_calc_sub(void)
     number1.num1=30;
     number1.num2=20;
     TEST_ASSERT_EQUAL(SUCCESS,calc_sub(number1,&res));
-	TEST_ASSERT_EQUAL(45,res.final_ans);
+	TEST_ASSERT_EQUAL(10,res.final_ans);
 
     /**
      * @brief test case for substraction
