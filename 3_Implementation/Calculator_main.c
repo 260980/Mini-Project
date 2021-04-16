@@ -5,6 +5,7 @@
 
 static result res={0};
 static calculator number1;
+static dt n1;
 void calc()
 {
     int choice,num1,num2;
@@ -20,6 +21,7 @@ void calc()
     {
         printf("Enter the value\n");
         scanf("%d",&num1);
+        dt.n1=num1;
     }
     else{
         printf("Enter the values\n");
@@ -54,10 +56,10 @@ void calc()
         printf("Power is %.2f",res.final_ans);
         break;
 
-       /* case 6:
-        calc_square(number1,&res);
+        case 6:
+        calc_square(n1,&res);
         printf("Square root is %.2f",res.final_ans);
-        break; */
+        break;
 
         default:
         exit(0);
