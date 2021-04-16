@@ -20,7 +20,13 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`260980` | Narra Revathi  | Feature A, B etc    | X No     | X No   |X No   |X No         
+`260980` | Narra Revathi  | F_01,F_02    | X No     | X No   |6   |6
+
+
+| Feature Id | Feature |
+|----------- | ------- |
+| F_01 | Performing Arithmetic opearations |
+| F_02 | Performing Scientific operations |
 
 ## Challenges Faced and How Was It Overcome
 
