@@ -10,8 +10,8 @@
  * @param res 
  * @return verify 
  */
-verify calc_power(calculator number1,calculator number2,result* res)
+verify calc_power(calculator number1,result* res)
 {
-    res->final_ans=pow(number1.num1,number2.num2);
+    res->final_ans=pow(number1.num1,number1.num2);
     return SUCCESS;
 }
